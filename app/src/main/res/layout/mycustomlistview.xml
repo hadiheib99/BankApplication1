@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/id_name"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:text="nameOf "
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/id_isIncome"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:text="is income"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/id_amount"
+            android:layout_width="0dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="amountOf"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/id_date"
+            android:textSize="20sp"
+            android:text="dateOf "
+            android:gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descInList"
+        android:layout_below="@id/linear"
+        android:textSize="15sp"
+        android:text="DESCRIPTION"/>
+
+
+
+</RelativeLayout>
